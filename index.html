@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/fbb9335d7e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="our.css">
+</head>
+<body>
+    <div class="contaner">
+        <div class="header">
+            
+            <div class="bname"><h4>THE RAHUL ROCK</h4></div>
+            <div class="menuicon" id="micon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            
+            <div class="menubar" id="menubar">
+                <nav>
+                    <a href="">HOME</a>
+                    <a href="#intro">ABOUT US</a>
+                    <a href="#skill">SKILL</a>
+                    <a href="#project">PROJECT</a>
+                    <a href="#cu">COUTACT US</a>
+                </nav>
+            </div>
+            <div class="hsmi">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""> <i class="fa-brands fa-square-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+            </div>
+            
+        </div>
+        <!-- intoduction here -->
+        <div class="intro" id="intro">
+            <div>
+                <h1>Rahul rock</h1>
+                <h4>Web Developer</h4>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolores vel itaque. Unde nobis sit nisi, expedita
+                <br> porro labore enim officiis laborum cupiditate ullam facilis rerum magnam cum quasi explicabo fuga soluta excepturi perfereatum.</p>
+               <button>My work</button>
+            </div>
+            <div><img src="image/spimage.png" alt=""></div>
+        </div>
+        <!-- about us -->
+        <div class="about">
+            <div><img src="image/fpimage.png" alt=""></div>
+            <div>
+                <h3>About Us</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos molestias at soluta in assumenda quo iure recusandae obcaecati <br>quam quae quibusdam vitae sint laborum, tempore porro dolorem delectus nobis possimus!</p>
+                <button>Download cv</button>
+            </div>
+        </div>
+
+        <!-- our skill -->
+        <div class="skill" id="skill">
+            <h3>My Skill</h3>
+                <div class="myskill">
+                <div>
+                    <label for="">HTML : </label><input type="range">
+                    <br>
+                    <label for="">CSS : </label><input type="range">
+                    <br>
+                    <label for="">JAVASCRIPT : </label><input type="range">
+                    <br>
+                    <label for="">PHP : </label><input type="range">
+                    <br>
+                    <label for="">MYSQLI : </label><input type="range">
+                </div>
+                <div>
+                    <label for="">BOOSTRAP : </label><input type="range">
+                    <br>
+                    <label for="">REACT : </label><input type="range">
+                    <br>
+                    <label for="">LARAVEL : </label><input type="range">
+                    <br>
+                    <label for="">GIT:  </label><input type="range">
+                    <br>
+                    <label for="">GITHUB : </label><input type="range">
+
+                </div>
+            </div>
+        </div>
+
+        <!-- our letest project -->
+        <div class="ltemplate" id="project">
+<h3>OUR LETEST PROJECT</h3>
+            
+        <div class="myproject">
+            <div><img src="project/first.jpg" alt=""></div>
+            <div><img src="project/first.jpg" alt=""></div>
+            <div><img src="project/first.jpg" alt=""></div>
+        </div>
+</div>
+
+        <div class="dd" id="cu">
+            <h3>Contact Us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, 
+                <br>itaque laudantium eaque rerum fugit cumque exercitationem odit, nobis recusandae voluptatibus similique minima vel sed a quia ipsa autem accusamus labore?</p>
+            <div class="contact">
+                <div class="slinkf">
+                    <h3>Follow Me</h3>
+                    <a href=""><i class="fa-brands fa-facebook"></i>Facebook</a>
+                    <a href=""> <i class="fa-brands fa-square-instagram"></i>Instagram</a>
+                    <a href=""><i class="fa-brands fa-square-whatsapp"></i>Whatsapp</a>
+
+                </div>
+                <div>
+                    <h3>Developer Details</h3>
+                    <address>
+                        Developer Name : Rahul rock<br>
+                        Mobile No : <a href="tel:7325095615">7325095615</a>
+                        <br>
+                        Email Id : <a href="mailto:rahulrockbg@gmail.com">rahulrockbg@gmail.com</a>
+                        <br>
+                        Address : Begusarai Bihar
+                    </address>
+                </div>
+                <div class="query">
+                    <h3>Query From</h3>
+                    <form>
+                        Name : <input type="text" name="uname" id="" required autofocus placeholder="Enter you name">
+                        <br>
+                        <br>
+                        Mobile No : <input type="tel" name="mob" maxlength="10" placeholder="Enter you mobile no">
+                        <br><br>
+                        Email Id : <input type="email" name="email"  required placeholder="Enter you email id">
+                        <br>
+                        <br>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+         
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("micon").addEventListener("click",()=>{
+
+document.getElementById("menubar").classList.toggle("showmenu");
+
+        });
+    </script>
+    
+</body>
+</html>

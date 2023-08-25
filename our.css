@@ -1,0 +1,410 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+.hsmi a{
+    padding-left: 10px;
+    font-size: 16px;
+}
+body{
+    background-color: black;
+
+}
+.container{
+    width: 100%;
+}
+
+.menuicon{
+    display: none;
+}
+.header{
+    position: sticky;
+    top: 0px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(lightgray,black,lightblue);
+}
+.header .bname h4{
+font-size: 25px;
+background-color: transparent;
+color: yellow;
+}
+.header .menubar a{
+    padding-left: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+.menubar a:hover{
+    color: blue;
+
+}
+.intro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.intro img{
+    width: 250px;
+    height: 350px;
+    object-fit: fill;
+}
+.intro h1{
+    margin-bottom: 20px;
+}
+.intro h4{
+    margin-bottom: 20px;
+    color: lime;
+}
+.intro h1::first-letter{
+    font-size: 60px;
+
+}
+.intro button{
+    color: black;
+    margin-top: 20px;
+    background-image: linear-gradient(red,transparent,lightblue);
+    width: 150px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-weight: bolder;
+
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about img{
+    width: 250px;
+    height: 350px;
+    object-fit: fill;
+}
+.about h3{
+    margin-bottom: 20px;
+}
+.about button{
+    color: black;
+    font-weight: bolder;
+    margin-top: 20px;
+    background-image: linear-gradient(rgb(47, 10, 255),transparent,lightblue);
+    width: 150px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50px;
+
+}
+.myskill input{
+ width: 500px;
+    
+}
+.myskill{
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+}
+.skill{
+    margin-top: 50px;
+}
+.skill h3{
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+}
+.myproject{
+    display: flex;
+    justify-content: space-around;
+}
+.myproject img{
+    width: 250px;
+    height: 300px;
+}
+.ltemplate h3{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.ltemplate{
+    margin-top: 50px;
+    
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+}
+.slinkf{
+    display: flex;
+    flex-direction: column;
+}
+.dd{
+    margin: 50px;
+    
+}
+.dd h3{
+    text-align: center;
+}
+.dd p{
+    padding-bottom: 50px;
+    text-align: center;
+}
+.slinkf a{
+    color: blue;
+    text-decoration-line: none;
+padding: 10px;
+}
+.slinkf i{
+    padding-right: 5px;
+}
+address{
+    margin-top: 10px;
+}
+address a{
+    text-decoration: none;
+}
+.query button{
+background-color: red;
+font-size: 16px;
+padding: 5px;
+}
+.query input{
+    border: 2px solid white;;
+}
+.query form{
+    margin-top: 10px;
+}
+
+/* here start media query */
+
+@media (max-width: 1300px){
+.myskill input{
+    width: 400px;
+}
+}
+@media(max-width: 1150px){
+    .intro, .about, .myskill{
+        padding: 0px 50px;
+    }
+}
+@media(max-width: 1100px){
+    .myskill input{
+        width: 300px;
+    }
+}
+
+@media(max-width: 1000px){
+.myproject img{
+    width: 200px;
+    height: 250px;
+}
+}
+@media(max-width: 850px){
+.myskill input{
+    width: 250px;
+}
+
+}
+@media(max-width: 800px){
+    .myskill input{
+        width: 200px;
+    }
+    .myproject img{
+        width: 150px;
+        height: 200px;
+    }
+    .bname{
+        font-size: 20px;
+        
+    }
+    .header{
+        flex-direction: column;
+        height: 60px;
+    }
+    .hsmi{
+        display: none;
+    }
+    
+}
+@media(max-width: 756px){
+    .intro,.about,.myskill,.dd{
+        padding: 0px 20px;
+    }
+    .dd{
+        margin: 20px;
+    }
+}
+@media(max-width: 700px){
+    .intro,.about,.dd p{
+        font-size: 14px;
+    }
+    .dd{
+        margin: 0px;
+    }
+
+}
+@media (max-width: 650px){
+    .contact{
+        flex-direction: column;
+    }
+    .myskill input{
+        width: 150px;
+    }
+
+}
+@media(max-width: 600px){
+    .myskill{
+        flex-direction: column;
+    height: 300px;
+    }
+    .myskill input{
+        width: 350px;
+    }
+}
+@media(max-width: 550px){
+    .myproject{
+flex-wrap: wrap;
+margin: 0px 20px;
+justify-content: space-between;
+    }
+    .myproject img{
+        width: 220px;
+        padding-bottom: 20px;
+    }
+}
+
+@media(max-width: 500px){
+    .myproject img{
+        width: 200px;
+    }
+    .myskill input{
+        width: 300px;
+    }
+}
+
+@media(max-width: 480px){
+    .query input{
+        width: 300px;
+    }
+    .myproject img{
+        width: 180px;
+    }
+}
+@media(max-width: 450px){
+    .myskill input{
+        width: 250px;
+    }
+    .about img{
+        width: 200px;
+        height: 250px;
+    }
+
+    .intro img{
+        width: 200px;
+        height: 250px;
+    }
+    .intro h1{
+        margin: 5px 0px;
+        font-size: 20px;
+    }
+    .intro h4{
+        margin-bottom: 5px;
+    }
+    .intro h1::first-letter{
+        font-size: 35px;
+    }
+
+}
+@media(max-width: 430px){
+    .intro,.about,.myproject{
+        flex-direction: column;
+        align-items: center;
+    }
+    .intro{
+        flex-direction: column-reverse;
+    }
+    .myproject img{
+        width: 250px;
+    }
+    .menuicon{
+        display: block;
+        font-size: 25px;
+    }
+    .header{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: start;
+        padding-top: 10px;
+        height: 35px;
+        
+    }
+    .menubar{
+        visibility: hidden;
+        transition: 2s all;
+        
+    }
+    .showmenu{
+        width: 100%;
+    
+    }
+    
+    .showmenu nav{
+        margin-top: 5px;
+        display: flex;
+        visibility: visible;
+        flex-direction: column;
+        background-color: limegreen;
+    
+    }
+    nav a:hover{
+        background: yellow;
+        color: white;
+        
+    }
+    .query input{
+width: 260px;
+    }
+}
+
+@media(max-width: 400px){
+    .query input{
+        width: 200px;
+    }
+    .myskill input{
+        width: 200px;
+    }
+
+}
+@media(max-width: 350px){
+    .myproject img{
+        padding: 0px;
+        width: 250px;
+    }
+    .header.bname{
+        width: 200px;
+    }
+    .header .bname h4{
+        font-size: 20px;
+        width: 200px;
+    }
+    .header{
+        width: auto;
+        padding-top: 0px;
+        
+    }
+    .skill input{
+        width: 150px;
+    }
+    .query form{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0px;
+        
+    }
+    .query input{
+        display: block;
+        width: 100%;
+        height: 25px;
+    }
+    
+}
